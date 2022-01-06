@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+}
+h2 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.weather-app {
+  border: 1px solid;
+  margin: 1px;
+  padding: 5px;
+}
+.weather-summary {
+  display: block;
+  margin: 0;
+  padding: 20px 0;
+}
+.partial-cloud {
+  display: block;
+  font-size: 40px;
+}
+.next-five-days {
+  border: 1px solid;
+  margin: 0;
+  padding: 20px;
+}
+.cloudy {
+  font-size: 25px;
+}
+.sun {
+  font-size: 25px;
+}
+.rain {
+  font-size: 25px;
+}
