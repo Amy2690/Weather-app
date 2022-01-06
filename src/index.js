@@ -1,4 +1,5 @@
 function formatDate(currentTime) {
+  let now = new Date();
   let hours = currentTime.getHours();
   if (hours < 10) {
     hours = `0${hours}`;
@@ -55,9 +56,9 @@ function getCurrentLocation(event) {
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
 
-var dateElement = document.querySelector("#date");
+let currentDate = document.querySelector("#date");
 var currentTime = new Date();
-dateElement.innerHTML = formatDate(currentTime);
+currentDate.innerHTML = formatDate(currentTime);
 
 var searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
